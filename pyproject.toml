@@ -1,0 +1,17 @@
+[project]
+name = "media-library-tools"
+version = "0.1.0"
+description = "A collection of tools to organize your media library"
+authors = [{name = "InHUM44n", email = "robertwatter@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "mutagen"
+]
+
+[project.scripts]
+mlt-audio = "mlt_audio.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
