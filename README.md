@@ -24,4 +24,5 @@ python path/to/convert_all_flac_to_mp3.py
 This script fetches the track title from the metadata and renames the file to it.
 ```
 python path/to/rename_audio_to_title.py
+    --include-track-number: adds the disc and track number to the filename
 ```
