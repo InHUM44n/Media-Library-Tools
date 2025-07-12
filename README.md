@@ -22,5 +22,9 @@ mlt-audio path/to/folder-or-file <options>
 ```
 Options:
 ```
---recursive
+--recursive:                apply recursively, if applied to a folder
+--include-track-number:     Include the track (and disc) number in the filename
+--compress-flac:            Compress FLAC files to MP3 files
+--retain-original-flac:     Do not delete the original files after conversion
+--add-release-type:         Add Release type information to metadata, such as
 ```
