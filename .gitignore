@@ -1,3 +1,4 @@
 testdata
 build
 media_library_tools.egg-info
+mlt-audio/__pycache__
