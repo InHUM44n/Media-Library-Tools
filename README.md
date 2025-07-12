@@ -6,7 +6,7 @@ This is a collection of scripts I wrote to organize my media library. Maybe it's
 
 ```
 git clone https://github.com/InHUM44n/Media-Library-Tools
-cd Media_Library_Tools
+cd Media-Library-Tools
 pip install .
 ```
 
